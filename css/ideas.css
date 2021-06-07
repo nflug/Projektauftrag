@@ -1,0 +1,23 @@
+main {
+    height: 70vh;
+}
+
+main article {
+    padding: 10vmin;
+}
+
+main article > h3 {
+    font-size: 3vmin;
+}
+
+main article > p {
+    font-size: 2vmin;
+    padding: 2vmin;
+    margin-top: 2vmin;
+    background-color: rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+main article > p:hover {
+    background-color: rgba(0.1, 0.1, 0.1, 0.3);
+    color: #fff;
+}

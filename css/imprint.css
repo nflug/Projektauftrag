@@ -1,0 +1,15 @@
+main {
+    height: 70vh;
+}
+
+section {
+    width: 80%;
+    background-color: rgba(0.1, 0.1, 0.1, 0.1);
+    margin: 0 auto;
+    padding: 5vmin;
+    font-size: 2vmin;
+}
+
+address {
+    font-size: 2vmin;
+}

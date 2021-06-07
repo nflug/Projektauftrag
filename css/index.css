@@ -1,0 +1,64 @@
+main {
+    height: 100vh;
+    -webkit-perspective: 0.3vmin;
+            perspective: 0.3vmin;
+}
+  
+.article {
+    position: relative;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    text-shadow: 0 0 0.5vmin #000;
+}
+  
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -5%;
+    -webkit-transform: translateZ(-0.1vmin) scale(1.5,1.5);
+    transform: translateZ(-0.1vmin) scale(1.5,1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    -moz-transform: translateZ(-0.1vmin) scale(1.5,1.5);
+    -ms-transform: translateZ(-0.1vmin) scale(1.5,1.5);
+    -o-transform: translateZ(-0.1vmin) scale(1.5,1.5);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.background {
+    background-color: #A2E8DD;
+    height: 30vh;
+}
+
+.parallax > h1 {
+    font-size: 3vmin;
+}
+
+.background > h1 {
+    color: #000;
+    text-shadow: none;
+    font-size: 2.5vmin;
+    text-align: center;
+}
+
+.parallax_bg1::after {
+    background-image: url("../images/plastik_meer.webp");
+}
+
+.parallax_bg2::after {
+    background-image: url("../images/plastik_umwelt.jpg");
+}

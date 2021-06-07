@@ -1,0 +1,19 @@
+main {
+    height: 65vh;
+}
+
+.center-file {
+    display: block;
+    margin: 0 auto;
+    width: 90vmin;
+}
+
+video, iframe, section img {
+    height: 50vmin;
+}
+
+h1 {
+    text-align: center;
+    padding: 2vmin;
+    font-size: 3vmin;
+}

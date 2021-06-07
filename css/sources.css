@@ -1,0 +1,26 @@
+main {
+    height: 70vh;
+}
+
+table {
+    width: 60%;
+    background-color: rgba(0.1, 0.1, 0.1, 0.1);
+    margin: 0 auto;
+    border: rgba(0.1, 0.1, 0.1, 0.6);
+    padding: 5vmin;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: rgba(0.1, 0.1, 0.1, 0.2);
+}
+
+td {
+    text-align: center;
+    font-size: 2vmin;
+}
+
+thead tr {
+    height: 4vmin;
+    text-align: center;
+}
