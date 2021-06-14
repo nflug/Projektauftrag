@@ -12,7 +12,7 @@ video, iframe, section img {
     height: 50vmin;
 }
 
-h1 {
+article > h1 {
     text-align: center;
     padding: 2vmin;
     font-size: 3vmin;
